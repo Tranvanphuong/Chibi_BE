@@ -18,5 +18,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
 # Gắn router
 app.include_router(vocabulary.router, prefix="/vocabulary", tags=["Vocabulary"])
