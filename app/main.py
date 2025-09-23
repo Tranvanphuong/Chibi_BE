@@ -7,7 +7,7 @@ origins = [
     "http://localhost",
     "http://localhost:5500",
     "http://127.0.0.1:5500",
-    "https://chibiv2.netlify.app/",
+    "https://chibiv2.netlify.app",
     "file://",
     "http://127.0.0.1:8000" # Thêm cả origin của API nếu cần
 ]
