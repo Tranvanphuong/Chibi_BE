@@ -4,4 +4,4 @@ supabase
 python-dotenv
 pydantic
 fastapi-cors
-guvicorn
+gunicorn
